@@ -1,3 +1,7 @@
+*** Settings ***
+
+Library                 QWeb
+
 *** Keywords ***
 
 Home
