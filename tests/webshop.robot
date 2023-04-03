@@ -2,7 +2,7 @@
 
 *** Settings ***
 
-Resource                ../resources/keywords.robot
+Resource                ../resources/common.robot
 Documentation           Test suite for CRT starter.
 Suite Setup             Open Browser    about:blank    chrome
 Suite Teardown          Close All Browsers
