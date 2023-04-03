@@ -4,7 +4,6 @@
 
 Resource                ../resources/keywords.robot
 Documentation           Test suite for CRT starter.
-Library                 QWeb
 Suite Setup             Open Browser    about:blank    chrome
 Suite Teardown          Close All Browsers
 
@@ -33,7 +32,7 @@ Check the navigation menu items
     GoTo                https://qentinelqi.github.io/shop/
     VerifyText          Products
     VerifyText          Our Story
-    VerifyText          Contact
+    VerifyText          Contact_
 
 Shop for products
     [Documentation]     Select a product, verify details on the page,
