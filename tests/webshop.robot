@@ -32,7 +32,7 @@ Check the navigation menu items
     GoTo                https://qentinelqi.github.io/shop/
     VerifyText          Products
     VerifyText          Our Story
-    VerifyText          Contact_
+    VerifyText          Contact
 
 Shop for products
     [Documentation]     Select a product, verify details on the page,
