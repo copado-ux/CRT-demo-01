@@ -5,6 +5,6 @@ Library                 QWeb
 *** Keywords ***
 
 Home
-    [Tags]            home
+    [Tags]            homepage
     [Documentation]   Set the application state to the shop home page.
     GoTo              https://qentinelqi.github.io/shop/
