@@ -26,7 +26,7 @@ Test the home page
     [Tags]            homepage
     [Documentation]   Go to the web shop, and verify that the slogan text appears on the page.
     GoTo              https://qentinelqi.github.io/shop/
-    VerifyText        Find your spirit animal
+    VerifyText        Find your spirit animala
 
 Check the navigation menu items
     [Tags]            navigation
