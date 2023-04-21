@@ -55,5 +55,10 @@ Continue shopping
     VerifyText        His favorite meal is chickpea salad with a lemon juice dressing.
     VerifyText        $9.00
     ClickText         Add to cart
-    ClickText         Continue shopping
-    VerifyText        Fur, Inc.
+
+Check Promo Code
+    [Tags]    testgen    numtests=50    nwise=2
+    ClickText    Promo code?
+    TypeText    Promo code    [promo code 1, promo code 2, promo code 3, promo code 4]
+    ClickText    Apply
+    VerifyText    This promo code isn't valid
