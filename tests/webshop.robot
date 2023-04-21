@@ -57,7 +57,7 @@ Continue shopping
     ClickText         Add to cart
 
 Check Promo Code
-    [Tags]    testgen    numtests=50    nwise=2
+    [Tags]    testgen    numtests=50    linear 
     ClickText    Promo code?
     TypeText    Promo code    [promo code 1, promo code 2, promo code 3, promo code 4]
     ClickText    Apply
