@@ -26,14 +26,14 @@ Test the home page
     [Tags]            homepage
     [Documentation]   Go to the web shop, and verify that the slogan text appears on the page.
     GoTo              https://qentinelqi.github.io/shop/
-    VerifyText        Find your spirit animal
+    VerifyText        Find your spirit animal1
 
 Check the navigation menu items
     [Tags]            navigation
     [Documentation]   Go to the shop homepage and verify the menu items.
     GoTo              https://qentinelqi.github.io/shop/
     VerifyText        Products
-    VerifyText        Our Story
+    VerifyText        Our Story1
     VerifyText        Contact
 
 Shop for products
@@ -45,7 +45,7 @@ Shop for products
     ClickText         Add to cart
     VerifyText        Cart summary
     VerifyText        Sacha the Deer
-    ClickText         Continue shopping
+    ClickText         Continue shopping1
 
 Continue shopping
     [Tags]            shop
@@ -54,11 +54,11 @@ Continue shopping
     ClickText         Gavin the Tiger
     VerifyText        His favorite meal is chickpea salad with a lemon juice dressing.
     VerifyText        $9.00
-    ClickText         Add to cart
+    ClickText         Add to cart1
 
 Check Promo Code
     [Tags]    testgen    numtests=50    nwise=2 
     ClickText    Promo code?
     TypeText    Promo code    [promo code 1, promo code 2, promo code 3, promo code 4]
     ClickText    Apply
-    VerifyText    This promo code isn't valid
+    VerifyText    This promo code isn't valid1
