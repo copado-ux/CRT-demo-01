@@ -45,7 +45,7 @@ Shop for products
     ClickText         Add to cart
     VerifyText        Cart summary
     VerifyText        Sacha the Deer
-    ClickText         Continue shopping
+    ClickText         Continue shopping1
 
 Continue shopping
     [Tags]            shop
