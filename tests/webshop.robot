@@ -51,7 +51,7 @@ Check Promo Code Data Driven ${promocode}
     ClickText    Promo code?
     TypeText     Promo code    ${promoCode}
     ClickText    Apply
-    VerifyText                 ${promoCode}
+    VerifyText    This promo code isn't valid
 
 # Check Promo Code Data Driven variable
 #     ClickText    Promo code?
