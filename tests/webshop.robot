@@ -53,11 +53,6 @@ Check Promo Code Data Driven ${promocode}
     ClickText    Apply
     VerifyText    This promo code isn't valid
 
-# Check Promo Code Data Driven variable
-#     ClickText    Promo code?
-#     TypeText     Promo code    ${code}
-#     ClickText    Apply
-#     VerifyText    This promo code isn't valid
 
 # Check Promo Code
 #     [Tags]    testgen    numtests=50    nwise=2 
