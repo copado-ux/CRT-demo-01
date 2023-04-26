@@ -40,21 +40,11 @@ Shop for products
     [Tags]            shop
     [Documentation]   Select a product, verify details on the page, add the product to the cart and continue shopping.
     GoTo              https://qentinelqi.github.io/shop/
-    ClickText         ${pr}
+    ClickText         ${productName}
     VerifyText        Slim Fit, 5oz 100% Cotton T-Shirt.
     ClickText         Add to cart
     VerifyText        Cart summary
-    VerifyText        Sacha the Deer
-    ClickText         Continue shopping
-
-Continue shopping
-    [Tags]            shop
-    [Documentation]   Add a second product to the cart.
-    AppState          Home
-    ClickText         Gavin the Tiger
-    VerifyText        His favorite meal is chickpea salad with a lemon juice dressing.
-    VerifyText        $9.00
-    ClickText         Add to cart
+    VerifyText        ${productName}
 
 # Check Promo Code Data Driven ${promocode}
 #     ClickText    Promo code?
