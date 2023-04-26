@@ -58,7 +58,7 @@ Continue shopping
 
 Check Promo Code Data Driven ${promocode}
     ClickText    Promo code?
-    TypeText     ${promocode}
+    TypeText        ${promocode}
     ClickText    Apply
     VerifyText    This promo code isn't valid
 
