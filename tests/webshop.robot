@@ -71,7 +71,7 @@ Continue shopping
 Check Promo Code
     [Tags]    testgen    numtests=50    nwise=2 
     ClickText    Promo code?
-    TypeText    Promo code              ${promocode}
+    TypeText    Promo code              [promo01,promo2,promo3]
     ClickText    Apply
     VerifyText    This promo code isn't valid
 
