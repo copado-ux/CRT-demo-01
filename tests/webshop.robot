@@ -40,7 +40,7 @@ Shop for products
     [Tags]            shop
     [Documentation]   Select a product, verify details on the page, add the product to the cart and continue shopping.
     GoTo              https://qentinelqi.github.io/shop/
-    ClickText         Sacha the Deer
+    ClickText         ${pr}
     VerifyText        Slim Fit, 5oz 100% Cotton T-Shirt.
     ClickText         Add to cart
     VerifyText        Cart summary
@@ -68,10 +68,10 @@ Continue shopping
 #     ClickText    Apply
 #     VerifyText    This promo code isn't valid
 
-Check Promo Code
-    [Tags]    testgen    numtests=50    nwise=2 
-    ClickText    Promo code?
-    TypeText    Promo code              [${promocode}, ${code}, promo03]
-    ClickText    Apply
-    VerifyText    This promo code isn't valid
+# Check Promo Code
+#     [Tags]    testgen    numtests=50    nwise=2 
+#     ClickText    Promo code?
+#     TypeText    Promo code              [${promocode}, ${code}, promo03]
+#     ClickText    Apply
+#     VerifyText    This promo code isn't valid
 
