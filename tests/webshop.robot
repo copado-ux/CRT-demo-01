@@ -45,7 +45,7 @@ Shop for products
     ClickText         Add to cart
     VerifyText        Cart summary
     VerifyText        Sacha the Deer
-    ClickText         Continue shopping1
+    ClickText         Continue shopping
 
 Continue shopping
     [Tags]            shop
@@ -56,9 +56,15 @@ Continue shopping
     VerifyText        $9.00
     ClickText         Add to cart
 
-Check Promo Code
-    [Tags]    testgen    numtests=50    nwise=2 
+Check Promo Code Data Driven
     ClickText    Promo code?
-    TypeText    Promo code    [promo code 1, promo code 2, promo code 3, promo code 4]
+    TypeText    ${promocode}
     ClickText    Apply
     VerifyText    This promo code isn't valid
+
+# Check Promo Code
+#     [Tags]    testgen    numtests=50    nwise=2 
+#     ClickText    Promo code?
+#     TypeText    Promo code    [promo code 1, promo code 2, promo code 3, promo code 4]
+#     ClickText    Apply
+#     VerifyText    This promo code isn't valid
