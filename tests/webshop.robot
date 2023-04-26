@@ -47,7 +47,7 @@ Shop for products
     VerifyText        ${productName}
 
 
-Check Promo Code Data Driven ${promocode}
+Check Promo Code
     ClickText    Promo code?
     TypeText     Promo code    ${promoCode}
     ClickText    Apply
