@@ -46,11 +46,12 @@ Shop for products
     VerifyText        Cart summary
     VerifyText        ${productName}
 
-# Check Promo Code Data Driven ${promocode}
-#     ClickText    Promo code?
-#     TypeText     Promo code    ${promocode}
-#     ClickText    Apply
-#     VerifyText    This promo code isn't valid
+
+Check Promo Code Data Driven ${promocode}
+    ClickText    Promo code?
+    TypeText     Promo code    ${promoCode}
+    ClickText    Apply
+    VerifyText                 ${promoCode}
 
 # Check Promo Code Data Driven variable
 #     ClickText    Promo code?
