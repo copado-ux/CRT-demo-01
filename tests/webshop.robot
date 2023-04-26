@@ -56,9 +56,9 @@ Continue shopping
     VerifyText        $9.00
     ClickText         Add to cart
 
-Check Promo Code Data Driven
+Check Promo Code Data Driven ${promocode}
     ClickText    Promo code?
-    TypeText    ${promocode}
+    TypeText     ${promocode}
     ClickText    Apply
     VerifyText    This promo code isn't valid
 
@@ -68,3 +68,4 @@ Check Promo Code Data Driven
 #     TypeText    Promo code    [promo code 1, promo code 2, promo code 3, promo code 4]
 #     ClickText    Apply
 #     VerifyText    This promo code isn't valid
+
